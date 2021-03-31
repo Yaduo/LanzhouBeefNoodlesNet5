@@ -1,0 +1,16 @@
+﻿@model IEnumerable<LanzhouBeefNoodles.Models.Noodle>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (var noodle in Model)
+{
+<div>
+    <h2>@noodle.Name</h2>
+    <h3>$ @noodle.Price</h3>
+    <p>@noodle.ShortDescription</p>
+</div>
+}

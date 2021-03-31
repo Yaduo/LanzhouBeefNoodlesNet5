@@ -1,0 +1,23 @@
+# Ignore everything in bin folder
+bin/
+
+# Ignore everything in obj folder
+obj/
+
+# Ignore everything in .out folder
+out/
+*.dll
+
+# Ignore everything in .vs folder
+*log.txt
+
+# Ignore everything in .vs folder
+.vs/
+
+# Ignor vs user settings
+*.user
+
+# Mac OS
+.DS_Store
+._.DS_Store
+
